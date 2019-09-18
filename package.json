@@ -1,0 +1,47 @@
+{
+  "name": "nomadnote",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.6.2",
+    "react": "^16.8.6",
+    "react-apollo": "^2.2.4",
+    "react-dom": "^16.8.6",
+    "react-scripts": "2.0.4",
+    "apollo-client": "^2.4.2",
+    "apollo-link-state": "^0.4.2",
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.10.0",
+    "react-markdown-renderer": "^1.4.0",
+    "react-router-dom": "^4.3.1",
+    "react-textarea-autosize": "^7.0.4",
+    "styled-components": "^3.4.10",
+    "styled-reset": "^1.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "cypress:open": "cypress open"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "cypress": "^3.4.1",
+    "gh-pages": "^2.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
